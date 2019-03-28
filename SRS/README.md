@@ -1,4 +1,4 @@
-# Tabla de contenido
+# Table of contents
 - [Introduction](#Introduction)
     - [Purpose](#Purpose)
     - [Scope](#Scope)
@@ -8,57 +8,56 @@
 - [Overrall description](#Overrall-description)
     - [Product perspective](#Product-perspective)
         - [System interfaces](#System-interfaces)
-### User interfaces
-### Hardware interfaces
-### Software interfaces
-### Communications interfaces
-### Memory
-### Operations
-### Site adaptation requirements
-## Product 
-## User characteristics
-### Educational level, experience y technical expertise
-## Constrains
-### Regulatory policies
-### Hardware limitations
-### Interfaces to other applications
-### Parallel operations
-### Audit functions
-### Control functions
-### Higher-order language requeriments
-### Signal handshake protocols
-### Reliability requirements
-### Criticality of the application
-### Safety and security consideration
-## Assumptions and dependencies
-## Apportioning of requirements
-# Specific 
-## External interfaces
-## Functions
-## Performance requirements
-## Logical database requirements
-## Design constraints
-### Standards compliance
-## Software system attributes
-### Relibility
-### Availability
-### Security
-### Maintainability
-### Portability
-## Organizing the specific requirements
-### System mode
-### User class
-### Objects
-### Feature
-### Stimulus
-### Response
-### Functional hierarchy
-## Additional comments
-# Supporting information
-## Table of contents 
-## Index
-## Appendixes
-------------------------------------
+        - [User interfaces](#User-interfaces)
+        - [Hardware interfaces](#Hardware-interfaces)
+        - [Software interfaces](#Software-interfaces)
+        - [Communications interfaces](#Communications-interfaces)
+        - [Memory](#Memory)
+        - [Operations](#Operations)
+        - [Site adaptation requirements](#Site-adaptation-requirements)
+- [Product](#Product)
+    - [User characteristics](#User-characteristics)
+        - [Educational level, experience y technical expertise](#Educational-level-experience-y-technical-expertise)
+        - [Constrains](#Constrains)
+        - [Regulatory policies](#Regulatory-policies)
+        - [Hardware limitations](#Hardware-limitations)
+        - [Interfaces to other applications](#Interfaces-to-other-applications)
+        - [Parallel operations](#Parallel-operations)
+        - [Audit functions](#Audit-functions)
+        - [Control functions](#Control-functions)
+        - [Higher-order language requeriments](#Higher-order-language-requeriments)
+        - [Signal handshake protocols](#Signal-handshake-protocols)
+        - [Reliability requirements](#Reliability-requirements)
+        - [Criticality of the application](#Criticality-of-the-application)
+        - [Safety and security consideration](#Safety-and-security-consideration)
+    - [Assumptions-and-dependencies](#Assumptions and dependencies)
+    - [Apportioning-of-requirements](#Apportioning-of-requirements)
+    - [Specific](#Specific) 
+    - [External interfaces](#External-interfaces)
+    - [Functions](#Functions)
+    - [Performance requirements](#Performance-requirements)
+    - [Logical database requirements](#Logical-database-requirements)
+    - [Design constraints](#Design-constraints)
+        - [Standards compliance](#Standards-compliance)
+    - [Software system attributes](#Software-system-attributes)
+        - [Relibility](#Relibility)
+        - [Availability](#Availability)
+        - [Security](#Security)
+        - [Maintainability](#Maintainability)
+        - [Portability](#Portability)
+    - [Organizing the specific requirements](#Organizing-the-specific-requirements)
+        - [System mode](#System-mode)
+        - [User class](#User-class)
+        - [Objects](#Objects)
+        - [Feature](#Feature)
+        - [Stimulus](#Stimulus)
+        - [Response](#Response)
+        - [Functional hierarchy](#Functional-hierarchy)
+    - [Additional comments](#Additional-comments)
+- [Supporting information](#Supporting-information)
+    - [Index](#Index)
+    - [Appendixes](#Appendixes)
+
 # Introduction
 ## Purpose
 El objetivo de este documento es describir una solución basada en software para organizar la documentación de una empresa contable.
