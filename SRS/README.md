@@ -7,6 +7,7 @@
 ## Overview
 # Overrall description
 ## Product perspective
+La empresa en la que se trabajara tiene un sistema de archivos a mano que contiene toda la información administrativa, como en muchos negocios este sistema hace que se acumule una cantidad bastante voluminosa de papel y archivos, y aunque se cuenta con archiveros para estos sigue siendo una cantidad bastante importante, por lo que al tener esta cantidad de archivos en forma física y guardada en diferentes archiveros complica la búsqueda de información, además de la posibilidad de pérdidas y daños a los mismo archivos.
 ### System interfaces
 ### User interfaces
 ### Hardware interfaces
