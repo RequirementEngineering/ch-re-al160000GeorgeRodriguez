@@ -14,15 +14,20 @@ Debe poder desplegarse en distintos sistemas operativos sin necesidad de una ada
 - Windows 7
 - Windows 8
 - Windows 10
-- Macintosh
+- Mac OS
 
 
 ## Definitions, acronyms, and abbreviations
 **Cliente**, es la persona que requiere los servicios de contaduría.
+
 **Colaboradores** internos, son las personas vinculadas directamente a la firma de contaduría.
+
 **Colaboradores externos**, colaboran de manera complementaria con la firma de contaduría con fines legales.
+
 **Sistema de administración tributaría (SAT)**, organización gubernamental encargada de tramites relacionados a la recolección de impuestos.
+
 ## References
+Reséndiz, G. (22 de 01 de 2019). Información sobre empresa. (P. Jurado, Entrevistador)
 ## Overview
 # Overrall description
 ## Product perspective
@@ -55,8 +60,11 @@ Movimientos, un solo cliente puede tener varios documentos, por lo que se puede 
 ![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos4BorrarMensaje.png)
 
 Agregar nuevos elementos, la pestaña “Nuevos clientes” nos permitirá ingresar los datos de nuevos clientes a la base de datos, los clientes anteriores no se removerán de la base de datos dado que en cualquier momento pueden volver a ser activos.
+
 ![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/MovimientosResultadoAgregar.png)
+
 ![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientes.png)
+
 ![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientesSuccess.png)
 
 ### Hardware interfaces
@@ -65,11 +73,11 @@ Agregar nuevos elementos, la pestaña “Nuevos clientes” nos permitirá ingre
 ### Memory
 ### Operations
 ### Site adaptation requirements
-## Product functions
+## Product 
+
 ## User characteristics
-### Educational level
-### Experience
-### Technical expertise
+### Educational level, experience y technical expertise
+De acuerdo con la entrevista realizada a Reséndiz(2019) no es relevante el nivel de estudios, ya que quienes realizan las actividades contables implicitamente tienen la capacidad de manejar las partes básicas de los sistemas operativos. En caso de requerir soporte técnico cuentan con personal que puedan resolver problemas relacionados con los ordenadores. La capacitación inicial para aprender a mandejar el programa será dado por el representante de la empresa.
 ## Constrains
 ### Regulatory policies
 ### Hardware limitations
@@ -100,7 +108,9 @@ Agregar nuevos elementos, la pestaña “Nuevos clientes” nos permitirá ingre
 ## Organizing the specific requirements
 ### System mode
 ### User class
+
 ### Objects
+
 ### Feature
 ### Stimulus
 ### Response
