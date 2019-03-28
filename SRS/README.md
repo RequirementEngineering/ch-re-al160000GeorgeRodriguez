@@ -103,6 +103,7 @@ De acuerdo con la entrevista realizada a Reséndiz(2019) no es relevante el nive
 ### Relibility
 ### Availability
 ### Security
+Por consideraciones del cliente, no será necesario auténticarse en la aplicación. Sin embargo, el acceso a la base de datos requerirá de usuario y contraseña. La base de datos estará en un servidor público, dado que el tráfico por día es mínimo las restricciones serán mínimas por parte del proveedor del sistema.
 ### Maintainability
 ### Portability
 ## Organizing the specific requirements
