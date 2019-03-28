@@ -1,8 +1,8 @@
 # Tabla de contenido
 - [Introduction](#Introduction)
-    -[Purpose](#Purpose)
-    -[Scope](#Scope)
-## Definitions, acronyms, and abbreviations
+ - [Purpose](#Purpose)
+ - [Scope](#Scope)
+ - [Definitions, acronyms, and abbreviations] (#Definitions,-acronyms,-and-abbreviations)
 ## References
 ## Overview
 # Overrall description
