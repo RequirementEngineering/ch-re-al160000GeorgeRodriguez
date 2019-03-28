@@ -1,7 +1,7 @@
 # Tabla de contenido
 - [Introduction](#Introduction)
--    [Purpose](#Purpose)
--    [Scope](#Scope)
+    -[Purpose](#Purpose)
+    -[Scope](#Scope)
 ## Definitions, acronyms, and abbreviations
 ## References
 ## Overview
@@ -94,6 +94,7 @@ Reséndiz, G. (22 de 01 de 2019). Información sobre empresa. (P. Jurado, Entrev
 ## Product perspective
 La empresa cliente, cuenta con un sistema de archivos a mano que contiene toda la información administrativa, como en muchos negocios este sistema hace que se acumule una cantidad bastante voluminosa de papel y archivos, y aunque se cuenta con archiveros para estos sigue siendo una cantidad bastante importante, por lo que al tener esta cantidad de archivos en forma física y guardada en diferentes archiveros complica la búsqueda de información, además de la posibilidad de pérdidas y daños a los mismo archivos.
 ### System interfaces
+
 ### User interfaces
 Consulta de documentos, éste se lleva a cabo al ingresar con los nombres y apellidos de los clientes. Si el documento se encuentra en una versión digital se muestra la ubicación dentro del ámbito seleccionado. En el caso de que se encuentre en alguna locación física el programa lo indica. Finalmente, si el cliente no cuenta con documentos disponibles, se manda un mensaje exhibiendo dicha situación.
 ![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas.png)
