@@ -96,7 +96,7 @@ La empresa cliente, cuenta con un sistema de archivos a mano que contiene toda l
 
 ### User interfaces
 Consulta de documentos, éste se lleva a cabo al ingresar con los nombres y apellidos de los clientes. Si el documento se encuentra en una versión digital se muestra la ubicación dentro del ámbito seleccionado. En el caso de que se encuentre en alguna locación física el programa lo indica. Finalmente, si el cliente no cuenta con documentos disponibles, se manda un mensaje exhibiendo dicha situación.
-![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas.png | width=100)
+![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas.png "Title" {width=40px height=400px})
 
 ![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas1Resp.png)
 
