@@ -126,7 +126,7 @@ Agregar nuevos elementos, la pestaña “Nuevos clientes” nos permitirá ingre
 
 ![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientes.png)
 
-![Consultas](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientesSuccess.png)
+![Nuevos Clientes](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientesSuccess.png)
 
 ### Hardware interfaces
 ### Software interfaces
@@ -170,7 +170,7 @@ Por consideraciones del cliente, no será necesario auténticarse en la aplicaci
 ## Organizing the specific requirements
 ### System mode
 ### User class
-
+![Diagrama de clase](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/DiagramaDeClase.png)
 ### Objects
 
 ### Feature
