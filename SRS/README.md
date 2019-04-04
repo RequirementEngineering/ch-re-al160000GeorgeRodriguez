@@ -30,8 +30,8 @@
         - [Reliability requirements](#Reliability-requirements)
         - [Criticality of the application](#Criticality-of-the-application)
         - [Safety and security consideration](#Safety-and-security-consideration)
-    - [Assumptions-and-dependencies](#Assumptions and dependencies)
-    - [Apportioning-of-requirements](#Apportioning-of-requirements)
+    - [Assumptions and dependencies](#Assumptions-and-dependencies)
+    - [Apportioning of requirements](#Apportioning-of-requirements)
     - [Specific](#Specific) 
     - [External interfaces](#External-interfaces)
     - [Functions](#Functions)
@@ -101,25 +101,21 @@ Consulta de documentos, éste se lleva a cabo al ingresar con los nombres y apel
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas3Resultados.png" alt="consultas con tres resultados" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ConsultasSinRespuesta.png" alt="consultas con tres resultados" width="400" />
 
 Movimientos, un solo cliente puede tener varios documentos, por lo que se puede anexar una cantidad indefinida de locaciones en documentos. Cada documento contará con un encabezado, el formato del documento, el nombre de la ubicación y la referencia de ésta. Si alguna referencia es obsoleta, se puede eliminar.
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos.png" width="400" />
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos2Resultados.png" width="400" />
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos2ResultadosSinEleccion.png" width="400" />
-
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos3Resultados.png" width="400" />
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos4Borrar.png" width="400" />
-
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos4BorrarMensaje.png" width="400" />
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos2Resultados.png" width="400" />
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos2ResultadosSinEleccion.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos3Resultados.png" width="400" />
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos4Borrar.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos4BorrarMensaje.png" width="400" />
 
 Agregar nuevos elementos, la pestaña “Nuevos clientes” nos permitirá ingresar los datos de nuevos clientes a la base de datos, los clientes anteriores no se removerán de la base de datos dado que en cualquier momento pueden volver a ser activos.
 
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/MovimientosResultadoAgregar.png" width="400" />
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientes.png" width="400" />
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/MovimientosResultadoAgregar.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientes.png" width="400" />
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientesSuccess.png" width="400" />
 
 ### Hardware interfaces
 ### Software interfaces
 ### Communications interfaces
+SQL
 ### Memory
+100MB en RAM
 ### Operations
 ### Site adaptation requirements
 ## Product 
@@ -129,8 +125,10 @@ Los usuarios estarán familiarizados con el sistema de administración de las cu
 ### Educational level, experience y technical expertise
 De acuerdo con la entrevista realizada a Reséndiz(2019) no es relevante el nivel de estudios, ya que quienes realizan las actividades contables implicitamente tienen la capacidad de manejar las partes básicas de los sistemas operativos. En caso de requerir soporte técnico cuentan con personal que puedan resolver problemas relacionados con los ordenadores. La capacitación inicial para aprender a mandejar el programa será dado por el representante de la empresa.
 ## Constrains
+El sistema está limitado a ejecutarse en equipos de escritorio que soporten y tengan instalado java JDK 8.0 o superior, 
 ### Regulatory policies
 ### Hardware limitations
+100MB en RAM
 ### Interfaces to other applications
 ### Parallel operations
 ### Audit functions
