@@ -60,8 +60,8 @@
 
 # Introduction
 ## Purpose
-El objetivo de este documento es describir una solución basada en software para organizar la documentación de una empresa contable.
-La solucion proporcionará mayor facilidad y agilidad al momento de filtrar y organizar grandes cantidades de información de los administradores. Con este proyecto será posible reducir el tiempo de búsqueda, mantener accesible información para los administradores de la empresa y recuperar los datos en documentos para su uso posterior. Crear una base de datos para localizar documentos de manera más efectiva y para que esté al alcance de más personas.
+
+The document objective is describing a software solution to organize business accounting. This solution will give ease and ease up to organize and find a lot of quantities of information. The project will allow to reduce time search, keep accessible the administrator business information and recover data in documents for later use. Create a database for localize documents effective and available to any person in business.
 
 El documento ampliamente aborda los siguientes topicos: se análizarán detalladamente los requerimientos de los colaboradores de la empresa. Se describirá un plan de acción para la elaboración del programa. Se desarrollará el programa que reduzca las acciones realizadas por los administradores en la oficina, generando una interfaz acorde a los dispositivos comúnmente utilizados en la empresa considerando su infraestructura. Se establecerá una base de datos para que el programa filtre los datos que sean solicitados. Hacer pruebas al software y corregir errores.
 ## Scope
