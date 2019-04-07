@@ -10,10 +10,10 @@ Departamento de Ingeniería Electricidad y Computación</br>
 </p>
 <br>
 <p align="right">
-Document </br>
-for</br>
+Development of software requirements</br>
 Accounting documents administration</br>
-Presented by George Rodríguez</br>
+George Iván Rodríguez Gómez 160000</br>
+Bachelor's in Software Engineer
 </p>
 
 # Table of contents
@@ -141,7 +141,13 @@ SQL
 ## Product 
 
 ## User characteristics
-Los usuarios estarán familiarizados con el sistema de administración de las cuentas de los usuarios.
+
+Only internal and externals employees can access to data:
+| Actor         | Role                                                                                                                                                             |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Internal Employee      | people can access to all parts of fiscal accounting others internal business process |
+| External Employee      | collaborator who help with some customers and special works|
+| Customer               | They are people in need of fiscal and administration accounting|  
 ### Educational level, experience y technical expertise
 De acuerdo con la entrevista realizada a Reséndiz(2019) no es relevante el nivel de estudios, ya que quienes realizan las actividades contables implicitamente tienen la capacidad de manejar las partes básicas de los sistemas operativos. En caso de requerir soporte técnico cuentan con personal que puedan resolver problemas relacionados con los ordenadores. La capacitación inicial para aprender a mandejar el programa será dado por el representante de la empresa.
 ## Constrains
