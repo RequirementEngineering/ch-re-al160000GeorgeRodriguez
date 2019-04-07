@@ -1,3 +1,21 @@
+<p align="center">
+Universidad Autonoma de Ciudad Juarez</br>
+División Multidisciplinaria de Ciudad Universitaria</br>
+Departamento de Ingeniería Electricidad y Computación</br>
+</p>
+<br>
+<p align="center">
+<img width="270" height="270" 
+  src="http://www.uacj.mx/comunicacion/PublishingImages/Escudo%20UACJ%202015/Escudo%20uacj%202015-color-sin%20fondo.png">
+</p>
+<br>
+<p align="right">
+Document </br>
+for</br>
+Accounting documents administration</br>
+Presented by George Rodríguez</br>
+</p>
+
 # Table of contents
 - [Introduction](#Introduction)
     - [Purpose](#Purpose)
@@ -63,7 +81,9 @@
 
 The document objective is describing a software solution to organize business accounting. This solution will give ease and ease up to organize and find a lot of quantities of information. The project will allow to reduce time search, keep accessible the administrator business information and recover data in documents for later use. Create a database for localize documents effective and available to any person in business.
 
-El documento ampliamente aborda los siguientes topicos: se análizarán detalladamente los requerimientos de los colaboradores de la empresa. Se describirá un plan de acción para la elaboración del programa. Se desarrollará el programa que reduzca las acciones realizadas por los administradores en la oficina, generando una interfaz acorde a los dispositivos comúnmente utilizados en la empresa considerando su infraestructura. Se establecerá una base de datos para que el programa filtre los datos que sean solicitados. Hacer pruebas al software y corregir errores.
+The document address broadly the next topics:
+It will be analyzed the requirement of business collaborators, so it will describe an action plan to construction of software. It will develop the software to reduce efforts to find documents in their offices, then it offers a solution according to available infrastructure. Finally, it will do proof and fix errors.
+
 ## Scope
 La finalidad de este producto es contribuir en el proceso que conlleva la extracción de la información y que además pueda ser utilizada con un considerable grado de sencillez por todos los posibles usuarios. En concreto este proyecto afecta directamente a todas las personas involucradas que requieran la información de los clientes de la empresa.
 
