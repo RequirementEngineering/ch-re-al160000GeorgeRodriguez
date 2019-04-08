@@ -54,20 +54,7 @@ Abril 2019
     - [Logical database requirements](#Logical-database-requirements)
 
         - [Security](#Security)
-        - [Maintainability](#Maintainability)
-        - [Portability](#Portability)
-    - [Organizing the specific requirements](#Organizing-the-specific-requirements)
-        - [System mode](#System-mode)
-        - [User class](#User-class)
-        - [Objects](#Objects)
-        - [Feature](#Feature)
-        - [Stimulus](#Stimulus)
-        - [Response](#Response)
-        - [Functional hierarchy](#Functional-hierarchy)
-    - [Additional comments](#Additional-comments)
-- [Supporting information](#Supporting-information)
-    - [Index](#Index)
-    - [Appendixes](#Appendixes)
+
 
 # Introduction
 ## Purpose
@@ -80,10 +67,9 @@ It will be analyzed the requirement of business collaborators, so it will descri
 ## Scope
 The product purpose is contributed in process of information extract and use for all users. This project include all people who need information about costumers and their paperwork’s.
 
-Otro aspecto para lograr es la amplia compresión en el uso del software por parte del personal involucrado en cada proceso, esto permitirá que el aprovechamiento de la herramienta proporcionada y con ello alcanzar las metas propuestas. De esta manera aumentar la productividad y mejorar el desempeño en la colaboración dentro de la organización.
+Other aspect to reach is a broad understanding about customer and users' necessities for increase the productivity of organization and improved the performance of collaboration among users of data customer.
 
-Debe poder desplegarse en distintos sistemas operativos sin necesidad de una adaptación previa, en concreto debe ser capaz de ejecutarse al menos en los siguientes sistemas operativos:
-
+The software have to run in different SO without a new recompilation previusly, so the system must run in:
 - Windows 7
 - Windows 8
 - Windows 10
@@ -100,13 +86,16 @@ Concept         | Definition
 **Sistema de administración tributaría (SAT)**| Goverment organization manager of paperwork related to collect taxes.
 **JDK**|Java development kit, is a development enviroment for building applications, applets, and components using the java programming language.
 **OS**|Abbreviature  of operating system
+**MB**|Abbreviature  of megabyte, 1 megabyte is equivalent to 1024 byte.
+**RAM**|Abbreviature  of random access memory, it allow keep temporal information about transactions when a program is run.
+**SQL**|Abbreviature  of Structured Query Language, it's allow handle all functions of a database.
 
 
 ## References
 Oracle, corp., web page. Consulted 5/04/2019. 
 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-Reséndiz, G. (22 de 01 de 2019). Información sobre empresa. (P. Jurado, Interviewer)
+Reséndiz, G. (22 de 01 de 2019). Information about business. (P. Jurado, Interviewer)
 ## Overview
 # Overrall description
 ## Product perspective
@@ -127,22 +116,24 @@ Do you use a tactile screen?| It isn't necessary, only one computer has a tactil
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas.png" alt="consultas" width="400" />   <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas1Resp.png" alt="consultas con una respuesta" width="400" />
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas3Resultados.png" alt="consultas con tres resultados" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ConsultasSinRespuesta.png" alt="consultas con tres resultados" width="400" />
 
-Movimientos, un solo cliente puede tener varios documentos, por lo que se puede anexar una cantidad indefinida de locaciones en documentos. Cada documento contará con un encabezado, el formato del documento, el nombre de la ubicación y la referencia de ésta. Si alguna referencia es obsoleta, se puede eliminar.
+Transactions, a customer can have several documents, so it's possible attach a undefined quantity of places in documents. Each document will dispose with a head, document format, ubication name and its reference. If some reference, it’s possible upgrade.
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos2Resultados.png" width="400" />
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos2ResultadosSinEleccion.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos3Resultados.png" width="400" />
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos4Borrar.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos4BorrarMensaje.png" width="400" />
 
-Agregar nuevos elementos, la pestaña “Nuevos clientes” nos permitirá ingresar los datos de nuevos clientes a la base de datos, los clientes anteriores no se removerán de la base de datos dado que en cualquier momento pueden volver a ser activos.
+Add new elements, a panel with new customers allow in data of new elements in database, last customers don’t remove of database at any moment could be active.
 
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/MovimientosResultadoAgregar.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientes.png" width="400" />
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientesSuccess.png" width="400" />
 
 ### Hardware interfaces
+For handle the system will be use a pointing device such as mouse or equivalent in portatil pcs, also it's necesary a keyboard for type search and update information.
 ### Software interfaces
+The software include a connection with other software elements allows interaction with SQL databases, also it's necesary others library to implement correctly all functions od software.
 ### Communications interfaces
-SQL
+For share information is necesary use a SQL database for save the information, so it's possible keep upgrate the information about users and customer of business.
 ### Memory
-500MB en RAM
+The operations of software use a small amount of memory, all data is send to online database, so only is necesary 500MB in RAM
 ### Operations
 ### Site adaptation requirements
 ## Product 
@@ -159,7 +150,7 @@ Customer               | They are people in need of fiscal and administration ac
 SAT| Goverment organization manager of paperwork related to collect taxes.
 ### Educational level, experience y technical expertise
 
-De acuerdo con la entrevista realizada a Reséndiz(2019) no es relevante el nivel de estudios, ya que quienes realizan las actividades contables implicitamente tienen la capacidad de manejar las partes básicas de los sistemas operativos. En caso de requerir soporte técnico cuentan con personal que puedan resolver problemas relacionados con los ordenadores. La capacitación inicial para aprender a mandejar el programa será dado por el representante de la empresa.
+According data collect, study level isn’t relevant, because the collaborators in the business have skills necessary to handle basics characteristics of OS. Technical information support is provided by external personal dedicated to give maintenance devices in business. The initial training in software operation give a representative enterprise.  
 ## Constrains
 The system is limited to run in equipment support and had installed JDK 8.0 or later. The software is built in Java, so it's necessary all library and java core to work.
 The computer through will access must be has internet connection. The software is distributed system and need an external database for work, then it's necessary connect to internet.
@@ -175,22 +166,7 @@ There is a middle place, where document save?|Dropbox
 When a work wasn't finished, where is keep the documents?| On the desk in their folders.
 
 ## Functions
+The software allows read information about localization of documents in database, so it will be necesary that an user type a basic data about customer. Other function is upgrate the data stored, so its possible add or delete information. Finally, it use a system for add new customer to database.
 
 ### Security
 Por consideraciones del cliente, no será necesario auténticarse en la aplicación. Sin embargo, el acceso a la base de datos requerirá de usuario y contraseña. La base de datos estará en un servidor público, dado que el tráfico por día es mínimo las restricciones serán mínimas por parte del proveedor del sistema.
-### Maintainability
-### Portability
-## Organizing the specific requirements
-### System mode
-### Diagram class
-
-### Objects
-### Feature
-### Stimulus
-### Response
-### Functional hierarchy
-## Additional comments
-# Supporting information
-## Table of contents 
-## Index
-## Appendixes
