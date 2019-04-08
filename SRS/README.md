@@ -117,6 +117,7 @@ Do you use a tactile screen?| It isn't necessary, only one computer has a tactil
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas3Resultados.png" alt="consultas con tres resultados" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ConsultasSinRespuesta.png" alt="consultas con tres resultados" width="400" />
 
 Transactions, a customer can have several documents, so it's possible attach a undefined quantity of places in documents. Each document will dispose with a head, document format, ubication name and its reference. If some reference, it’s possible upgrade.
+
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos2Resultados.png" width="400" />
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos2ResultadosSinEleccion.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos3Resultados.png" width="400" />
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos4Borrar.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Movimientos4BorrarMensaje.png" width="400" />
@@ -134,8 +135,6 @@ The software include a connection with other software elements allows interactio
 For share information is necesary use a SQL database for save the information, so it's possible keep upgrate the information about users and customer of business.
 ### Memory
 The operations of software use a small amount of memory, all data is send to online database, so only is necesary 500MB in RAM
-### Operations
-### Site adaptation requirements
 ## Product 
 
 ## User characteristics
@@ -169,4 +168,4 @@ When a work wasn't finished, where is keep the documents?| On the desk in their 
 The software allows read information about localization of documents in database, so it will be necesary that an user type a basic data about customer. Other function is upgrate the data stored, so its possible add or delete information. Finally, it use a system for add new customer to database.
 
 ### Security
-Por consideraciones del cliente, no será necesario auténticarse en la aplicación. Sin embargo, el acceso a la base de datos requerirá de usuario y contraseña. La base de datos estará en un servidor público, dado que el tráfico por día es mínimo las restricciones serán mínimas por parte del proveedor del sistema.
+Some considerations of customer software, it isn't necessary authenticate in application. However, the access to database need a user and password. So, a pool data will be in a public server, then the information traffic per day is minimum. In other situation will be use a provider of service with more benefits in relations with transactions of the database.
