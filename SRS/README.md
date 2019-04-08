@@ -11,19 +11,28 @@ Departamento de Ingeniería Electricidad y Computación</br>
 <br>
 <p align="right">
 Development of software requirements</br>
+</br>
+</br>
 Accounting documents administration</br>
+</br>
+</br>
 George Iván Rodríguez Gómez 160000</br>
+</br>
+</br>
 Bachelor's in Software Engineer
+</br>
+</br>
+Abril 2019
 </p>
 
 # Table of contents
-- [Introduction](#Introduction)
+1. [Introduction](#Introduction)
     - [Purpose](#Purpose)
     - [Scope](#Scope)
     - [Definitions acronyms and abbreviations](#definitions-acronyms-and-abbreviations)
     - [References](#References)
     - [Overview](#Overview)
-- [Overrall description](#Overrall-description)
+2. [Overrall description](#Overrall-description)
     - [Product perspective](#Product-perspective)
         - [System interfaces](#System-interfaces)
         - [User interfaces](#User-interfaces)
@@ -33,33 +42,17 @@ Bachelor's in Software Engineer
         - [Memory](#Memory)
         - [Operations](#Operations)
         - [Site adaptation requirements](#Site-adaptation-requirements)
-- [Product](#Product)
+    - [Product](#Product)
     - [User characteristics](#User-characteristics)
         - [Educational level, experience y technical expertise](#Educational-level-experience-y-technical-expertise)
         - [Constrains](#Constrains)
-        - [Regulatory policies](#Regulatory-policies)
-        - [Hardware limitations](#Hardware-limitations)
-        - [Interfaces to other applications](#Interfaces-to-other-applications)
-        - [Parallel operations](#Parallel-operations)
-        - [Audit functions](#Audit-functions)
-        - [Control functions](#Control-functions)
-        - [Higher-order language requeriments](#Higher-order-language-requeriments)
-        - [Signal handshake protocols](#Signal-handshake-protocols)
-        - [Reliability requirements](#Reliability-requirements)
-        - [Criticality of the application](#Criticality-of-the-application)
-        - [Safety and security consideration](#Safety-and-security-consideration)
-    - [Assumptions and dependencies](#Assumptions-and-dependencies)
-    - [Apportioning of requirements](#Apportioning-of-requirements)
-    - [Specific](#Specific) 
+
     - [External interfaces](#External-interfaces)
     - [Functions](#Functions)
-    - [Performance requirements](#Performance-requirements)
+   
+3. [Specific requirements](#Specific-requirements) 
     - [Logical database requirements](#Logical-database-requirements)
-    - [Design constraints](#Design-constraints)
-        - [Standards compliance](#Standards-compliance)
-    - [Software system attributes](#Software-system-attributes)
-        - [Relibility](#Relibility)
-        - [Availability](#Availability)
+
         - [Security](#Security)
         - [Maintainability](#Maintainability)
         - [Portability](#Portability)
@@ -85,7 +78,7 @@ The document address broadly the next topics:
 It will be analyzed the requirement of business collaborators, so it will describe an action plan to construction of software. It will develop the software to reduce efforts to find documents in their offices, then it offers a solution according to available infrastructure. Finally, it will do proof and fix errors.
 
 ## Scope
-La finalidad de este producto es contribuir en el proceso que conlleva la extracción de la información y que además pueda ser utilizada con un considerable grado de sencillez por todos los posibles usuarios. En concreto este proyecto afecta directamente a todas las personas involucradas que requieran la información de los clientes de la empresa.
+The product purpose is contributed in process of information extract and use for all users. This project include all people who need information about costumers and their paperwork’s.
 
 Otro aspecto para lograr es la amplia compresión en el uso del software por parte del personal involucrado en cada proceso, esto permitirá que el aprovechamiento de la herramienta proporcionada y con ello alcanzar las metas propuestas. De esta manera aumentar la productividad y mejorar el desempeño en la colaboración dentro de la organización.
 
@@ -98,24 +91,38 @@ Debe poder desplegarse en distintos sistemas operativos sin necesidad de una ada
 
 
 ## Definitions, acronyms, and abbreviations
-**Cliente**, es la persona que requiere los servicios de contaduría.
 
-**Colaboradores** internos, son las personas vinculadas directamente a la firma de contaduría.
+Concept         | Definition   
+--------------|-----------
+**Internal Employee**      | People can access to all parts of fiscal accounting others internal business process 
+**External Employee**      | Collaborator who helps with some customers and special works
+**Customer**             | They are people in need of fiscal and administration accounting
+**Sistema de administración tributaría (SAT)**| Goverment organization manager of paperwork related to collect taxes.
+**JDK**|Java development kit, is a development enviroment for building applications, applets, and components using the java programming language.
+**OS**|Abbreviature  of operating system
 
-**Colaboradores externos**, colaboran de manera complementaria con la firma de contaduría con fines legales.
-
-**Sistema de administración tributaría (SAT)**, organización gubernamental encargada de tramites relacionados a la recolección de impuestos.
 
 ## References
-Reséndiz, G. (22 de 01 de 2019). Información sobre empresa. (P. Jurado, Entrevistador)
+Oracle, corp., web page. Consulted 5/04/2019. 
+https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+Reséndiz, G. (22 de 01 de 2019). Información sobre empresa. (P. Jurado, Interviewer)
 ## Overview
 # Overrall description
 ## Product perspective
-La empresa cliente, cuenta con un sistema de archivos a mano que contiene toda la información administrativa, como en muchos negocios este sistema hace que se acumule una cantidad bastante voluminosa de papel y archivos, y aunque se cuenta con archiveros para estos sigue siendo una cantidad bastante importante, por lo que al tener esta cantidad de archivos en forma física y guardada en diferentes archiveros complica la búsqueda de información, además de la posibilidad de pérdidas y daños a los mismo archivos.
+The business has with a system files with administrative information, this information during time in paper in folders, but this number of documents isn’t handled adequately in along time this can become a big problem. It will be hard to find a necessary hard copy of any document in different places of business infrastructure, and possibilities of losing and damage it.
 ### System interfaces
 
 ### User interfaces
-Consulta de documentos, éste se lleva a cabo al ingresar con los nombres y apellidos de los clientes. Si el documento se encuentra en una versión digital se muestra la ubicación dentro del ámbito seleccionado. En el caso de que se encuentre en alguna locación física el programa lo indica. Finalmente, si el cliente no cuenta con documentos disponibles, se manda un mensaje exhibiendo dicha situación.
+The first perspective about software is getting in an interview with the costumer, here show some characteristics of software:
+
+Software Engineer        | Customer   
+-------------------------|-----------
+The system need a language additional to Spanish?|No, all users understand Spanish.
+What OS have the equipment of users?|Windows in different versions and mac OS.
+Do you use a tactile screen?| It isn't necessary, only one computer has a tactile screen. 
+
+ Document Search, when the user insert name and last name of customer, the system lookin for all data related with the people related. If a document found have a digital version, then it show a hiperlink with its reference in selected enviroment. In case, the sofware find a phisical location, the answer will indicate the exact position. Finally, if the user don't find a available ducuments, the system indicate this situation.
 
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas.png" alt="consultas" width="400" />   <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas1Resp.png" alt="consultas con una respuesta" width="400" />
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/Consultas3Resultados.png" alt="consultas con tres resultados" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ConsultasSinRespuesta.png" alt="consultas con tres resultados" width="400" />
@@ -135,58 +142,49 @@ Agregar nuevos elementos, la pestaña “Nuevos clientes” nos permitirá ingre
 ### Communications interfaces
 SQL
 ### Memory
-100MB en RAM
+500MB en RAM
 ### Operations
 ### Site adaptation requirements
 ## Product 
 
 ## User characteristics
 
-Only internal and externals employees can access to data:
-| Actor         | Role                                                                                                                                                             |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Internal Employee      | people can access to all parts of fiscal accounting others internal business process |
-| External Employee      | collaborator who help with some customers and special works|
-| Customer               | They are people in need of fiscal and administration accounting|  
+The user involved all collaborators but, only internal and externals employees can access to data, the next table describe the roles of interaction actors:
+
+Actor         | Role   
+--------------|-----------
+Internal Employee      | people can access to all parts of fiscal accounting others internal business process 
+External Employee      | collaborator who help with some customers and special works
+Customer               | They are people in need of fiscal and administration accounting
+SAT| Goverment organization manager of paperwork related to collect taxes.
 ### Educational level, experience y technical expertise
+
 De acuerdo con la entrevista realizada a Reséndiz(2019) no es relevante el nivel de estudios, ya que quienes realizan las actividades contables implicitamente tienen la capacidad de manejar las partes básicas de los sistemas operativos. En caso de requerir soporte técnico cuentan con personal que puedan resolver problemas relacionados con los ordenadores. La capacitación inicial para aprender a mandejar el programa será dado por el representante de la empresa.
 ## Constrains
-El sistema está limitado a ejecutarse en equipos de escritorio que soporten y tengan instalado java JDK 8.0 o superior.
-El equipo mediante el cual se accederá deberá contar con conexión a internet.
-### Regulatory policies
-### Hardware limitations
-100MB en RAM
-### Interfaces to other applications
-### Parallel operations
-### Audit functions
-### Control functions
-### Higher-order language requeriments
-### Signal handshake protocols
-### Reliability requirements
-### Criticality of the application
-### Safety and security consideration
-## Assumptions and dependencies
-## Apportioning of requirements
-# Specific 
+The system is limited to run in equipment support and had installed JDK 8.0 or later. The software is built in Java, so it's necessary all library and java core to work.
+The computer through will access must be has internet connection. The software is distributed system and need an external database for work, then it's necessary connect to internet.
+
+# Specific requirements
 ## External interfaces
+
+Software Engieener        | Customer   
+--------------------------|-----------
+Where will be computers with software?| In central office, and external employees will use in own laptops out of offices.
+There is some place in where the employees save documents?|Digital documents save in central pc, in dropbox service. And the externals employees will be connected to same repository.
+There is a middle place, where document save?|Dropbox
+When a work wasn't finished, where is keep the documents?| On the desk in their folders.
+
 ## Functions
-## Performance requirements
-## Logical database requirements
-## Design constraints
-### Standards compliance
-## Software system attributes
-### Relibility
-### Availability
+
 ### Security
 Por consideraciones del cliente, no será necesario auténticarse en la aplicación. Sin embargo, el acceso a la base de datos requerirá de usuario y contraseña. La base de datos estará en un servidor público, dado que el tráfico por día es mínimo las restricciones serán mínimas por parte del proveedor del sistema.
 ### Maintainability
 ### Portability
 ## Organizing the specific requirements
 ### System mode
-### User class
-![Diagrama de clase](https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/DiagramaDeClase.png)
-### Objects
+### Diagram class
 
+### Objects
 ### Feature
 ### Stimulus
 ### Response
