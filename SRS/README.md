@@ -65,7 +65,7 @@ The document objective is describing a software solution to organize business ac
 The document address broadly the next topics:
 It will be analyzed the requirement of business collaborators, so it will describe an action plan to construction of software. It will develop the software to reduce efforts to find documents in their offices, then it offers a solution according to available infrastructure. Finally, it will do proof and fix errors.
 ## Business Managment Process
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ActoresDocumentacion.png" width="700" />  
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ActoresDocumentacionE.png" width="800" />  
 
 ## Scope
 The product purpose is contributed in process of information extract and use for all users. This project include all people who need information about costumers and their paperwork’s.
