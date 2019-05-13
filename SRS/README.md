@@ -35,7 +35,7 @@ Abril 2019
     - [Overview](#Overview)
 2. [Overrall description](#Overrall-description)
     - [Product perspective](#Product-perspective)
-        - [System interfaces](#System-interfaces)
+        - [Class diagram](#Class-diagram)
         - [User interfaces](#User-interfaces)
         - [Hardware interfaces](#Hardware-interfaces)
         - [Software interfaces](#Software-interfaces)
@@ -65,7 +65,7 @@ The document objective is describing a software solution to organize business ac
 The document address broadly the next topics:
 It will be analyzed the requirement of business collaborators, so it will describe an action plan to construction of software. It will develop the software to reduce efforts to find documents in their offices, then it offers a solution according to available infrastructure. Finally, it will do proof and fix errors.
 ## Business Managment Process
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ActoresDocumentacionE.png" width="800" />  
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ActoresDocumentacionE.png" width="900" />  
 
 ## Scope
 The product purpose is contributed in process of information extract and use for all users. This project include all people who need information about costumers and their paperwork’s.
@@ -103,7 +103,7 @@ Reséndiz, G. (22 de 01 de 2019). Information about business. (P. Jurado, Interv
 # Overrall description
 ## Product perspective
 The business has with a system files with administrative information, this information during time in paper in folders, but this number of documents isn’t handled adequately in along time this can become a big problem. It will be hard to find a necessary hard copy of any document in different places of business infrastructure, and possibilities of losing and damage it.
-### System interfaces
+### Class diagram
 
 ### User interfaces
 The first perspective about software is getting in an interview with the costumer, here show some characteristics of software:
