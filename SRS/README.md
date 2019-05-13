@@ -29,7 +29,22 @@ Abril 2019
 1. [Introduction](#Introduction)
     - [Purpose](#Purpose)
     - [Scope](#Scope)
-    - [Business Managment Process](#Business Managment Process)
+    - [Business Managment Process](#Business-Managment-Process)
+- [Interest for tax declaration](#Interest-for-tax-declaration)
+- [Case documentation](#Case-documentation)
+- [Exceeds installed capacity?](#Exceeds-installed-capacity?)
+- [Case analysis](#Case-analysis)
+- [Review of the client's history](#Review-of-the-client's-history)
+- [Complete documentation?](#Complete-documentation?)
+- [The document are completed](#The-document-are-completed)
+- [Equipment available or functional?](#Equipment-available-or-functional?)
+- [Fix problem](#Fix-problem)
+- [Tax procedures](#Tax-procedures)
+- [Reception of the procedure](#Reception-of-the-procedure)
+- [Issuance of tax receipts](#Issuance-of-tax-receipts)
+- [Reception of documentation(Business)](#Reception-of-documentation(Business))
+- [Submission of documentation and invoice](#Submission-of-documentation-and-invoice)
+- [Reception of documentation(Customer)](#Reception-of-documentation(Customer))
     - [Definitions acronyms and abbreviations](#definitions-acronyms-and-abbreviations)
     - [References](#References)
     - [Overview](#Overview)
@@ -65,7 +80,26 @@ The document objective is describing a software solution to organize business ac
 The document address broadly the next topics:
 It will be analyzed the requirement of business collaborators, so it will describe an action plan to construction of software. It will develop the software to reduce efforts to find documents in their offices, then it offers a solution according to available infrastructure. Finally, it will do proof and fix errors.
 ## Business Managment Process
+Introduction
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ActoresDocumentacionE.png" width="900" />  
+### Interest for tax declaration
+### Case documentation
+### Exceeds installed capacity?
+### Case analysis
+### Review of the client's history
+### Complete documentation?
+### The document are completed
+### Equipment available or functional?
+### Fix problem
+### Tax procedures
+### Reception of the procedure
+### Issuance of tax receipts
+### Reception of documentation(Business)
+### Submission of documentation and invoice
+### Reception of documentation(Customer)
+
+
+
 
 ## Scope
 The product purpose is contributed in process of information extract and use for all users. This project include all people who need information about costumers and their paperwork’s.
