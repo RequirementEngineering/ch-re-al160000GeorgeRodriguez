@@ -102,6 +102,17 @@ The user involved all collaborators but, only internal and externals employees c
  Alternative flow | 
  Post-conditions | The system clean the search
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/create.png" width="800" />  
+ User  | Description
+ ----- | -------------
+ Name | Generate reports
+ Date | 20/04/2019
+ Author | George Rodríguez
+ Description | An internal employees need find a documentation of customer.
+ Actors | Administrator
+ Pre-conditions | The customer is active in database.
+ Normal flow | * The internal employee require information about customer
+ Alternative flow | 
+ Post-conditions | The system clean the search
 
 
 ## Scope
