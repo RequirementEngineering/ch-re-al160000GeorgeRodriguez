@@ -80,9 +80,12 @@ The document objective is describing a software solution to organize business ac
 The document address broadly the next topics:
 It will be analyzed the requirement of business collaborators, so it will describe an action plan to construction of software. It will develop the software to reduce efforts to find documents in their offices, then it offers a solution according to available infrastructure. Finally, it will do proof and fix errors.
 ## Business Managment Process
-Introduction
+### Introduction
+ The business managment process documentation specify key points about how to work an enteriprise, so it describes the workflow in accounting business and focus in the importance of software development for improve performance.
+
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ActoresDocumentacionE.png" width="900" />  
 ### Interest for tax declaration
+In general, a customer goes to office, and an employee interviews him. Here, his situation is determined, so offer to customer a right service to their  necessities.
 ### Case documentation
 ### Exceeds installed capacity?
 ### Case analysis
