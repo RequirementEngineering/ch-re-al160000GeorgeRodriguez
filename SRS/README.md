@@ -98,21 +98,30 @@ The user involved all collaborators but, only internal and externals employees c
  Description | An internal employees need find a documentation of customer.
  Actors | Administrator
  Pre-conditions | The customer is active in database.
- Normal flow | * The internal employee require information about customer
- Alternative flow | 
+ Flow | The internal employee require basic information about customer
  Post-conditions | The system clean the search
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/create.png" width="800" />  
  User  | Description
  ----- | -------------
- Name | Generate reports
+ Name | Create a new customer
  Date | 20/04/2019
  Author | George Rodríguez
- Description | An internal employees need find a documentation of customer.
+ Description | An internal employees  register a new customer.
+ Actors | Administrator
+ Pre-conditions | The customer isn't active in database.
+ Flow | The internal employee require detailed information about customer to create this new instance.
+ Post-conditions | The database is upgrate with new information. 
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/update.png" width="800" />  
+ User  | Description
+ ----- | -------------
+ Name | Update information about customer client or delete documents.
+ Date | 20/04/2019
+ Author | George Rodríguez
+ Description | An internal employees  update a new document's customer.
  Actors | Administrator
  Pre-conditions | The customer is active in database.
- Normal flow | * The internal employee require information about customer
- Alternative flow | 
- Post-conditions | The system clean the search
+ Flow | The internal employee require basic information about customer.
+ Post-conditions | The database is upgrate with new information. 
 
 
 ## Scope
@@ -204,17 +213,30 @@ The system is limited to run in equipment support and had installed JDK 8.0 or l
 The computer through will access must be has internet connection. The software is distributed system and need an external database for work, then it's necessary connect to internet.
 
 # Specific requirements
-## External interfaces
 
+## Functional requirements
+The software allows read information about localization of documents in database, so it will be necesary that an user type a basic data about customer. Other function is upgrate the data stored, so its possible add or delete information. Finally, it use a system for add new customer to database.
 Software Engieener        | Customer   
 --------------------------|-----------
 Where will be computers with software?| In central office, and external employees will use in own laptops out of offices.
 There is some place in where the employees save documents?|Digital documents save in central pc, in dropbox service. And the externals employees will be connected to same repository.
 There is a middle place, where document save?|Dropbox
 When a work wasn't finished, where is keep the documents?| On the desk in their folders.
+##Non functional requirements
+## External interfaces
 
-## Functions
-The software allows read information about localization of documents in database, so it will be necesary that an user type a basic data about customer. Other function is upgrate the data stored, so its possible add or delete information. Finally, it use a system for add new customer to database.
 
 ### Security
 Some considerations of customer software, it isn't necessary authenticate in application. However, the access to database need a user and password. So, a pool data will be in a public server, then the information traffic per day is minimum. In other situation will be use a provider of service with more benefits in relations with transactions of the database.
+
+# Appendices
+
+Software Engieener        | Customer   
+--------------------------|-----------
+Where will be computers with software?| In central office, and external employees will use in own laptops out of offices.
+There is some place in where the employees save documents?|Digital documents save in central pc, in dropbox service. And the externals employees will be connected to same repository.
+There is a middle place, where document save?|Dropbox
+The system need a language additional to Spanish?|No, all users understand Spanish.
+What OS have the equipment of users?|Windows in different versions and mac OS.
+Do you use a tactile screen?| It isn't necessary, only one computer has a tactile screen. 
+When a work wasn't finished, where is keep the documents?| On the desk in their folders.
