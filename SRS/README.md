@@ -78,7 +78,7 @@ An especific case must be evaluated for take the better option to solve, so it's
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/history.png" width="390" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/fix.png" width="390" />  
 An employee start the tax procedures, when all documentation is complete. That, it avoid problems with SAT, so their system review and recept the documentation.All pays derived of transaction have to do by a customer, and SAT system will reflect that pays. SAT system solve the issuace of tax receipts, and they send probatory documentation to petitioner.The new documents are record in business system, then it's generated an invoice on service realized  Finally, the customer receipt the documentation probatory transaction and cover services.
 
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/procedures.png" width="380" />  <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/invoice.png" width="445" />  
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/procedures.png" width="370" />  <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/invoice.png" width="455" />  
 
 
 
