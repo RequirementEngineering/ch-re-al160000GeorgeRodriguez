@@ -71,14 +71,14 @@ It will be analyzed the requirement of business collaborators, so it will descri
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ActoresDocumentacionE.png" width="900" />  
 In general, a customer goes to office, and an employee interviews him. Here, a situation is determined throw of documentation, so offer to customer a right service to their  necessities. When a new customer request a service, it's necessary document its case. In each case is necessary evaluate the intalled capacity to process the request, then the manager company decide who process it. 
 
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/documentation.png" width="390" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/completeDocumentation.png" width="390" />  
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/documentation.png" width="390" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/completeDocumentation.png" width="410" />  
 
 An especific case must be evaluated for take the better option to solve, so it's necessary have all documentation about client. A review of the client's history will help to determine its situation, any other aditional information give clearness on case. However, it's essential that exist a complete mandatory information, so the business will complete satisfactory. It's essential have a computer equipment available and functional, because all tansaction are realized by internet. If there are some problems, then a technical support can help to solve the problem.
 
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/history.png" width="390" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/fix.png" width="390" />  
 An employee start the tax procedures, when all documentation is complete. That, it avoid problems with SAT, so their system review and recept the documentation.All pays derived of transaction have to do by a customer, and SAT system will reflect that pays. SAT system solve the issuace of tax receipts, and they send probatory documentation to petitioner.The new documents are record in business system, then it's generated an invoice on service realized  Finally, the customer receipt the documentation probatory transaction and cover services.
 
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/procedures.png" width="390" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/invoice.png" width="390" />  
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/procedures.png" width="390" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/invoice.png" width="420" />  
 
 
 
@@ -89,6 +89,7 @@ An employee start the tax procedures, when all documentation is complete. That, 
 The user involved all collaborators but, only internal and externals employees can access to data, the next table describe the roles of interaction actors:
 
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/userCase.png" width="900" />  
+
 Actor         | Role   
 --------------|-----------
 Internal Employee      | people can access to all parts of fiscal accounting others internal business process 
