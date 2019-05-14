@@ -69,8 +69,7 @@ It will be analyzed the requirement of business collaborators, so it will descri
  The business managment process documentation specify key points about how to work an company, so it describes the workflow in accounting business and focus in the importance of software development for improve performance. The process extend around four key steps: case documentation, information review, tax procedures, and manage documentation.
 
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ActoresDocumentacionE.png" width="900" />  
-In general, a customer goes to office, and an employee interviews him. Here, his situation is determined, so offer to customer a right service to their  necessities. Case documentation
-### Exceeds installed capacity?
+In general, a customer goes to office, and an employee interviews him. Here, his situation is determined, so offer to customer a right service to their  necessities. When a new customer request a service, it's necessary document its case. In each case is necessary evaluate the intalled capacity to process the request, then the manager company decide who process it. 
 ### Case analysis
 ### Review of the client's history
 ### Complete documentation?
