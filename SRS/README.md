@@ -78,7 +78,7 @@ An especific case must be evaluated for take the better option to solve, so it's
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/history.png" width="390" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/fix.png" width="390" />  
 An employee start the tax procedures, when all documentation is complete. That, it avoid problems with SAT, so their system review and recept the documentation.All pays derived of transaction have to do by a customer, and SAT system will reflect that pays. SAT system solve the issuace of tax receipts, and they send probatory documentation to petitioner.The new documents are record in business system, then it's generated an invoice on service realized  Finally, the customer receipt the documentation probatory transaction and cover services.
 
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/procedures.png" width="390" />  <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/invoice.png" width="435" />  
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/procedures.png" width="380" />  <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/invoice.png" width="435" />  
 
 
 
@@ -124,6 +124,7 @@ Concept         | Definition
 **MB**|Abbreviature  of megabyte, 1 megabyte is equivalent to 1024 byte.
 **RAM**|Abbreviature  of random access memory, it allow keep temporal information about transactions when a program is run.
 **SQL**|Abbreviature  of Structured Query Language, it's allow handle all functions of a database.
+**CRUD**|Abbreviature  of create, read, update and delete.
 
 
 ## References
@@ -136,6 +137,9 @@ Reséndiz, G. (22 de 01 de 2019). Information about business. (P. Jurado, Interv
 ## Product perspective
 The business has with a system files with administrative information, this information during time in paper in folders, but this number of documents isn’t handled adequately in along time this can become a big problem. It will be hard to find a necessary hard copy of any document in different places of business infrastructure, and possibilities of losing and damage it.
 ### Class diagram
+The software is supported on three key classes, and other derived class gives support to this classes. DocumentManager class execute al graphics elements in software and control the flow data of user interface. Tabla class does all activities related with a tables in database by example: create and update field's table. ClienteAnalisis, create all querys to database and manipulate the system (CRUD), so their principal function it's create new elements, read data, update information and delete records.
+
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/DiagramaDeClase.png" width="900" />  
 
 ### User interfaces
 The first perspective about software is getting in an interview with the costumer, here show some characteristics of software:
