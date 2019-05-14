@@ -88,15 +88,22 @@ An employee start the tax procedures, when all documentation is complete. That, 
 
 The user involved all collaborators but, only internal and externals employees can access to data, the next table describe the roles of interaction actors:
 
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/userCase.png" width="900" />  
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/read.png" width="800" />  
 
-Actor         | Role   
---------------|-----------
-Internal Employee      | people can access to all parts of fiscal accounting others internal business process 
-External Employee      | collaborator who help with some customers and special works
-Customer               | They are people in need of fiscal and administration accounting
-Technical support            | People who give support to company
-SAT| Goverment organization manager of paperwork related to collect taxes.
+ User  | Description
+ ----- | -------------
+ Name | Generate reports
+ Date | 20/04/2019
+ Author | George Rodríguez
+ Description | An internal employees need find a documentation of customer.
+ Actors | Administrator
+ Pre-conditions | The customer is active in database.
+ Normal flow | * The internal employee require information about customer
+ Alternative flow | 
+ Post-conditions | The system clean the search
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/create.png" width="800" />  
+
+
 ## Scope
 The product purpose is contributed in process of information extract and use for all users. This project include all people who need information about costumers and their paperwork’s.
 
