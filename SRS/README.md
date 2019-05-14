@@ -28,6 +28,8 @@ Abril 2019
 # Table of contents
 1. [Introduction](#Introduction)
     - [Purpose](#Purpose)
+    - [Business Managment Process](#Business-Managment-Process)
+    - [Use case](#Use-case)
     - [Scope](#Scope)
     - [Business Managment Process](#Business-Managment-Process)
     - [Definitions acronyms and abbreviations](#definitions-acronyms-and-abbreviations)
@@ -44,7 +46,6 @@ Abril 2019
         - [Operations](#Operations)
         - [Site adaptation requirements](#Site-adaptation-requirements)
     - [Product](#Product)
-    - [User characteristics](#User-characteristics)
         - [Educational level, experience y technical expertise](#Educational-level-experience-y-technical-expertise)
         - [Constrains](#Constrains)
 
@@ -65,7 +66,6 @@ The document objective is describing a software solution to organize business ac
 The document address broadly the next topics:
 It will be analyzed the requirement of business collaborators, so it will describe an action plan to construction of software. It will develop the software to reduce efforts to find documents in their offices, then it offers a solution according to available infrastructure. Finally, it will do proof and fix errors.
 ## Business Managment Process
-### Introduction
  The business managment process documentation specify key points about how to work an company, so it describes the workflow in accounting business and focus in the importance of software development for improve performance. The process extend around four key steps: case documentation, information review, tax procedures, and manage documentation.
 
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/ActoresDocumentacionE.png" width="900" />  
@@ -84,6 +84,18 @@ An employee start the tax procedures, when all documentation is complete. That, 
 
 
 
+## User case
+
+The user involved all collaborators but, only internal and externals employees can access to data, the next table describe the roles of interaction actors:
+
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/userCase.png" width="900" />  
+Actor         | Role   
+--------------|-----------
+Internal Employee      | people can access to all parts of fiscal accounting others internal business process 
+External Employee      | collaborator who help with some customers and special works
+Customer               | They are people in need of fiscal and administration accounting
+Technical support            | People who give support to company
+SAT| Goverment organization manager of paperwork related to collect taxes.
 ## Scope
 The product purpose is contributed in process of information extract and use for all users. This project include all people who need information about costumers and their paperwork’s.
 
@@ -94,6 +106,7 @@ The software have to run in different SO without a new recompilation previusly, 
 - Windows 8
 - Windows 10
 - Mac OS
+
 
 
 ## Definitions, acronyms, and abbreviations
@@ -160,17 +173,6 @@ For share information is necesary use a SQL database for save the information, s
 ### Memory
 The operations of software use a small amount of memory, all data is send to online database, so only is necesary 500MB in RAM
 ## Product 
-
-## User characteristics
-
-The user involved all collaborators but, only internal and externals employees can access to data, the next table describe the roles of interaction actors:
-
-Actor         | Role   
---------------|-----------
-Internal Employee      | people can access to all parts of fiscal accounting others internal business process 
-External Employee      | collaborator who help with some customers and special works
-Customer               | They are people in need of fiscal and administration accounting
-SAT| Goverment organization manager of paperwork related to collect taxes.
 ### Educational level, experience y technical expertise
 
 According data collect, study level isn’t relevant, because the collaborators in the business have skills necessary to handle basics characteristics of OS. Technical information support is provided by external personal dedicated to give maintenance devices in business. The initial training in software operation give a representative enterprise.  
