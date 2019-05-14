@@ -92,7 +92,7 @@ The user involved all collaborators but, only internal and externals employees c
 
  User  | Description
  ----- | -------------
- Name | Generate reports
+ Name | Search documentation
  Date | 20/04/2019
  Author | George Rodríguez
  Description | An internal employees need find a documentation of customer.
