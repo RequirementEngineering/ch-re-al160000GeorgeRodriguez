@@ -152,7 +152,7 @@ Add new elements, a panel with new customers allow in data of new elements in da
 For handle the system will be use a pointing device such as mouse or equivalent in portatil pcs, also it's necesary a keyboard for type search and update information.
 ### Software interfaces
 The software include a connection with other software elements allows interaction with SQL databases, also it's necesary others library to implement correctly all functions od software. The class conexion have all elements to connect to database and manage the most common mistakes. Other class are organized like database, so it's possible handled in system with the same characteristics.
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/diagramaDB.png" width="400" align="center" />
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/diagramaBD.png" width="400" align="center" />
 
 ### Communications interfaces
 For share information is necesary use a SQL database for save the information, so it's possible keep upgrate the information about users and customer of business.
