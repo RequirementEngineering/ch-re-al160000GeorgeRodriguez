@@ -33,6 +33,7 @@ April 2019
     - [Scope](#Scope)
     - [Business Managment Process](#Business-Managment-Process)
     - [Definitions acronyms and abbreviations](#definitions-acronyms-and-abbreviations)
+    
 2. [Overrall description](#Overrall-description)
     - [Product perspective](#Product-perspective)
     - [Specific requirements](#Specific-requirements)
@@ -48,10 +49,6 @@ April 2019
         - [Communications interfaces](#Communications-interfaces)
         - [Memory](#Memory)
         - [Class diagram](#Class-diagram)
-
-
-    - [External interfaces](#External-interfaces)
-    - [Functions](#Functions)
 
 3. Appendices
     - [Elicitation process](#Elicitation-process)
