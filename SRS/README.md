@@ -35,26 +35,25 @@ April 2019
     - [Definitions acronyms and abbreviations](#definitions-acronyms-and-abbreviations)
 2. [Overrall description](#Overrall-description)
     - [Product perspective](#Product-perspective)
-        - [User interfaces](#User-interfaces)
+    - [Specific requirements](#Specific-requirements)
+        - [Functional requirements](#Functional-requirements)
+            - [User interfaces](#User-interfaces)
+        - [Non functional requirements](#Non-functional-requirements)
+            - [Educational level, experience y technical expertise](#Educational-level-experience-y-technical-expertise)
+            - [Constrains](#Constrains)
+        - [Security](#Security)
+        - [System requirements](#System-requirements)
         - [Hardware interfaces](#Hardware-interfaces)
         - [Software interfaces](#Software-interfaces)
         - [Communications interfaces](#Communications-interfaces)
         - [Memory](#Memory)
-        - [Operations](#Operations)
-        - [Site adaptation requirements](#Site-adaptation-requirements)
-    - [Product](#Product)
-        - [Educational level, experience y technical expertise](#Educational-level-experience-y-technical-expertise)
-        - [Constrains](#Constrains)
+        - [Class diagram](#Class-diagram)
+
 
     - [External interfaces](#External-interfaces)
     - [Functions](#Functions)
-   
-3. [Specific requirements](#Specific-requirements) 
-    - [Logical database requirements](#Logical-database-requirements)
 
-        - [Security](#Security)
-        - [Class diagram](#Class-diagram)
-4. Appendices
+3. Appendices
     - [Elicitation process](#Elicitation-process)
     - [References](#References)
 
@@ -264,7 +263,9 @@ The software is supported on three key classes, and other derived class gives su
 
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/DiagramaDeClase.png" width="900" />  
 # Appendices
+
 ## Elicitation process
+
 It get informaton throw a interview on 3/14/2019 by Paola Jurado, in this, Aracely P. represent a accounting company, she was exposed all software requeriments, and answered the next question about details of software:
 
 Software Engineer        | Customer   
