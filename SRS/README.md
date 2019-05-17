@@ -22,7 +22,7 @@ George Iván Rodríguez Gómez 160000</br>
 Bachelor's in Software Engineer
 </br>
 </br>
-Abril 2019
+April 2019
 </p>
 
 # Table of contents
@@ -33,10 +33,8 @@ Abril 2019
     - [Scope](#Scope)
     - [Business Managment Process](#Business-Managment-Process)
     - [Definitions acronyms and abbreviations](#definitions-acronyms-and-abbreviations)
-    - [Overview](#Overview)
 2. [Overrall description](#Overrall-description)
     - [Product perspective](#Product-perspective)
-        - [Class diagram](#Class-diagram)
         - [User interfaces](#User-interfaces)
         - [Hardware interfaces](#Hardware-interfaces)
         - [Software interfaces](#Software-interfaces)
@@ -55,6 +53,9 @@ Abril 2019
     - [Logical database requirements](#Logical-database-requirements)
 
         - [Security](#Security)
+        - [Class diagram](#Class-diagram)
+4. Appendices
+    - [Elicitation process](#Elicitation-process)
     - [References](#References)
 
 
@@ -197,16 +198,13 @@ Concept         | Definition
 # Overrall description
 ## Product perspective
 The business has with a system files with administrative information, this information during time in paper in folders, but this number of documents isn’t handled adequately in along time this can become a big problem. It will be hard to find a necessary hard copy of any document in different places of business infrastructure, and possibilities of losing and damage it.
-### Class diagram
-The software is supported on three key classes, and other derived class gives support to this classes. DocumentManager class execute al graphics elements in software and control the flow data of user interface. Tabla class does all activities related with a tables in database by example: create and update field's table. ClienteAnalisis, create all querys to database and manipulate the system (CRUD), so their principal function it's create new elements, read data, update information and delete records.
-
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/DiagramaDeClase.png" width="900" />  
 
 
 # Specific requirements
 
 ## Functional requirements
-The software allows read information about localization of documents in database, so it will be necesary that a user type a basic data about customer. Other function is upgrade the data stored, so it's possible add or delete information. Finally, it uses a system for add new customer to database.
+The software allows read information about localization of documents in database, so it will be necesary that a user type a basic data about customer. Other function is upgrade the data stored, so it's possible add or delete information. Finally, it uses a system for add new customer to database. The next table specify some characteistics of system, a complete information you can see [Elicitation process](#Elicitation-process).
+
 Software Engieener        | Customer   
 --------------------------|-----------
 Where will be computers with software?| In central office, and external employees will use in own laptops out of offices.
@@ -239,8 +237,7 @@ Add new elements, a panel with new customers allow in data of new elements in da
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientesSuccess.png" width="400" />
 
 
-##Non functional requirements
-## Product 
+## Non functional requirements
 ### Educational level, experience y technical expertise
 
 According data collect, study level isn’t relevant, because the collaborators in the business have skills necessary to handle basics characteristics of OS. Technical information support is provided by external personal dedicated to give maintenance devices in business. The initial training in software operation give a representative enterprise.  
@@ -262,6 +259,10 @@ The software include a connection with other software elements allows interactio
 For share information is necesary use a SQL database for save the information, so it's possible keep upgrate the information about users and customer of business.
 ### Memory
 The operations of software use a small amount of memory, all data is send to online database, so only is necesary 500MB in RAM
+### Class diagram
+The software is supported on three key classes, and other derived class gives support to this classes. DocumentManager class execute al graphics elements in software and control the flow data of user interface. Tabla class does all activities related with a tables in database by example: create and update field's table. ClienteAnalisis, create all querys to database and manipulate the system (CRUD), so their principal function it's create new elements, read data, update information and delete records.
+
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/DiagramaDeClase.png" width="900" />  
 # Appendices
 ## Elicitation process
 It get informaton throw a interview on 3/14/2019 by Paola Jurado, in this, Aracely P. represent a accounting company, she was exposed all software requeriments, and answered the next question about details of software:
