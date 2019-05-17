@@ -33,7 +33,6 @@ Abril 2019
     - [Scope](#Scope)
     - [Business Managment Process](#Business-Managment-Process)
     - [Definitions acronyms and abbreviations](#definitions-acronyms-and-abbreviations)
-    - [References](#References)
     - [Overview](#Overview)
 2. [Overrall description](#Overrall-description)
     - [Product perspective](#Product-perspective)
@@ -56,6 +55,7 @@ Abril 2019
     - [Logical database requirements](#Logical-database-requirements)
 
         - [Security](#Security)
+    - [References](#References)
 
 
 # Introduction
@@ -194,13 +194,6 @@ Concept         | Definition
 **SQL**|Abbreviature  of Structured Query Language, it's allow handle all functions of a database.
 **CRUD**|Abbreviature  of create, read, update and delete.
 
-
-## References
-Oracle, corp., web page. Consulted 5/04/2019. 
-https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-
-Reséndiz, G. (22 de 01 de 2019). Information about business. (P. Jurado, Interviewer)
-## Overview
 # Overrall description
 ## Product perspective
 The business has with a system files with administrative information, this information during time in paper in folders, but this number of documents isn’t handled adequately in along time this can become a big problem. It will be hard to find a necessary hard copy of any document in different places of business infrastructure, and possibilities of losing and damage it.
@@ -208,8 +201,6 @@ The business has with a system files with administrative information, this infor
 The software is supported on three key classes, and other derived class gives support to this classes. DocumentManager class execute al graphics elements in software and control the flow data of user interface. Tabla class does all activities related with a tables in database by example: create and update field's table. ClienteAnalisis, create all querys to database and manipulate the system (CRUD), so their principal function it's create new elements, read data, update information and delete records.
 
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/DiagramaDeClase.png" width="900" />  
-
-
 
 
 # Specific requirements
@@ -247,12 +238,6 @@ Add new elements, a panel with new customers allow in data of new elements in da
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/MovimientosResultadoAgregar.png" width="400" /><img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientes.png" width="400" />
 <img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/NuevosClientesSuccess.png" width="400" />
 
-### Hardware interfaces
-For handle the system will be use a pointing device such as mouse or equivalent in portatil pcs, also it's necesary a keyboard for type search and update information.
-### Software interfaces
-The software include a connection with other software elements allows interaction with SQL databases, also it's necesary others library to implement correctly all functions od software. The class conexion have all elements to connect to database and manage the most common mistakes. Other class are organized like database, so it's possible handled in system with the same characteristics.
-
-<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/diagramaBD.png" width="900" align="center" />
 
 ##Non functional requirements
 ## Product 
@@ -263,17 +248,22 @@ According data collect, study level isn’t relevant, because the collaborators 
 The system is limited to run in equipment support and had installed JDK 8.0 or later. The software is built in Java, so it's necessary all library and java core to work.
 The computer through will access must be has internet connection. The software is distributed system and need an external database for work, then it's necessary connect to internet.
 
-
 ### Security
 Some considerations of customer software, it isn't necessary authenticate in application. However, the access to database need a user and password. So, a pool data will be in a public server, then the information traffic per day is minimum. In other situation will be use a provider of service with more benefits in relations with transactions of the database.
 ## System requirements
+### Hardware interfaces
+For handle the system will be use a pointing device such as mouse or equivalent in portatil pcs, also it's necesary a keyboard for type search and update information.
+### Software interfaces
+The software include a connection with other software elements allows interaction with SQL databases, also it's necesary others library to implement correctly all functions od software. The class conexion have all elements to connect to database and manage the most common mistakes. Other class are organized like database, so it's possible handled in system with the same characteristics.
+
+<img src="https://github.com/RequirementEngineering/ch-re-al160000GeorgeRodriguez/blob/master/SRS/images/diagramaBD.png" width="900" align="center" />
 
 ### Communications interfaces
 For share information is necesary use a SQL database for save the information, so it's possible keep upgrate the information about users and customer of business.
 ### Memory
 The operations of software use a small amount of memory, all data is send to online database, so only is necesary 500MB in RAM
 # Appendices
-
+## Elicitation process
 It get informaton throw a interview on 3/14/2019 by Paola Jurado, in this, Aracely P. represent a accounting company, she was exposed all software requeriments, and answered the next question about details of software:
 
 Software Engineer        | Customer   
@@ -299,3 +289,9 @@ The software need adapt to other devices|No, we work in pcs with windows or mac
 The software need adapt to other systems|Maybe, it's necessary adapt to cloud computing, but this technology no yet available in the business.
 Security|
 Users need aditional information to access?|No, the simplicity is important
+
+# References
+Oracle, corp., web page. Consulted 5/04/2019. 
+https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+Reséndiz, G. (22 de 01 de 2019). Information about business. (P. Jurado, Interviewer)
